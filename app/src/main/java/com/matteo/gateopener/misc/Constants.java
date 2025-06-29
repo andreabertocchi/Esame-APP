@@ -7,6 +7,9 @@ public class Constants {
     public static final int MFCC_COUNT = 13;
     public static final int MEL_FILTER_COUNT = 26;
     public static final int MAX_RECORDING_TIME_MS = 3000;
-    public static final int FRAME_LENGTH_SAMPLES = 400;
     public static final int NUM_PEOPLE_TO_CLASSIFY = 4;
+    //public static final int LOWER_DISTANCE_THRESHOLD = 8;
+    public static final int HIGHER_DISTANCE_THRESHOLD = 400;
+    public static final int SEARCH_RADIUS = 3;
+    public static final short SILENCE_THRESHOLD_DTW = 1000;
 }
